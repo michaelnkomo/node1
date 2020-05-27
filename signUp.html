@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In | Sign Up</title>
+</head>
+<body>
+    <p>If you are already a member sign in below!!!</p>
+    <h1>sign in</h1>
+    <form action="/signin" method="GET">
+        <label for="email">Email
+            <input type="email" name="email" placeholder="someone@example.com" required />
+        </label>
+
+        <label for="password">Enter your Password
+            <input type="password" name="createPassword" required />
+        </label>
+
+        <button type="submit">Submit</button>
+    </form>
+    <p>Forgotten your password, <a href="#">Reset it here!!</a> </p>
+    
+    <br>
+    <hr>
+    <br>
+
+    <p>Not yet a member, sign up below!!!</p>
+    <h1>Sign Up</h1>
+    <form action="signup" method="GET">
+        <label for="firstname">First Name
+            <input type="text" name="firstname" placeholder="First Name"required/>
+        </label>
+
+       <label for="lastname">Last Name
+        <input type="text" name="lastname" placeholder="Last Name"required/>
+       </label>
+
+        <label for="tel">Phone Number
+            <input type="tel" name="tel" placeholder="Phone Number" required/>
+        </label>
+
+        <label for="email">Email
+            <input type="email" name="email" placeholder="someone@example.com" required/>
+        </label>
+
+        <label for="password">Create a Password
+            <input type="password" name="createPassword" required/>
+        </label>
+
+        <label for="password">Verify your Password
+            <input type="password" name="verifyPassword" required/>
+        </label>
+        
+        <button type="submit">Submit</button>
+    </form>
+    
+</body>
+</html>

@@ -1,0 +1,19 @@
+{
+  "name": "learning",
+  "version": "1.0.0",
+  "description": "this is my first descrpition",
+  
+  "repository": {
+    "type": "git",
+   "url": "www.git.co"
+  },
+  "keywords": [
+    "learn",
+    "this",
+    "too"
+  ],
+  "author": "Mchael nkomo",
+  "license": "MIT"
+}
+
+
